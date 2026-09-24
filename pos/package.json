@@ -1,0 +1,21 @@
+{
+  "name": "tappay-pos",
+  "private": true,
+  "version": "1.0.0",
+  "description": "TapPay merchant terminal — opens payment sessions and waits for a customer tap",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 5173",
+    "build": "vite build",
+    "preview": "vite preview --port 5173"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.8"
+  }
+}
