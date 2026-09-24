@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "TapPay",
+    "slug": "tappay",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "tappay",
+    "userInterfaceStyle": "light",
+    "splash": { "resizeMode": "contain", "backgroundColor": "#16202F" },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.example.tappay",
+      "infoPlist": {
+        "NFCReaderUsageDescription": "TapPay reads the payment terminal to pick up the amount you are being charged.",
+        "NSCameraUsageDescription": "TapPay uses the camera to scan another user's TapPay QR code."
+      },
+      "entitlements": {
+        "com.apple.developer.nfc.readersession.formats": ["NDEF"]
+      }
+    },
+    "android": {
+      "package": "com.example.tappay",
+      "permissions": ["NFC", "CAMERA"]
+    },
+    "plugins": [
+      "expo-camera",
+      [
+        "react-native-nfc-manager",
+        {
+          "nfcPermission": "TapPay reads the payment terminal to pick up the amount you are being charged."
+        }
+      ]
+    ]
+  }
+}
