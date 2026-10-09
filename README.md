@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # TapPay
 
 A virtual-money wallet with two payment flows:
@@ -285,10 +285,4 @@ This is the honest part, and it matters for your demo.
 | GET | `/api/transactions/:id` | signed in | One transaction, if it is yours |
 
 ---
-
-## Scope
-
-This is a prototype with virtual money. Real settlement, card networks, financial licensing, device secure elements and production payment credentials are deliberately outside it. See `PROJECT_PROPOSAL.md` for what a production version would need.
-=======
 # TapPay-project-
->>>>>>> 307f9628c0e236a3fd0d5831fe4ed14a5d761041
